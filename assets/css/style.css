@@ -11,8 +11,9 @@ li {
     display: inline-block;
     margin: 10px;
     font-family: courier;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 17px;
 }
 nav#main-nav a {
    text-decoration: none;
@@ -44,4 +45,22 @@ article {
     padding: 20px;
     display: inline-block;
     font-family: courier;
+}
+
+h2 {
+    color: #80d4ff;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
 }
