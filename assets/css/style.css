@@ -4,9 +4,15 @@ header {
     border: 2px solid grey;
     text-align: center;
     text-shadow: 2px 2px #000000;
-    
+    background-color: #D3DEEB;
+  
 }
 
+body {
+    
+
+    
+}
 li {
     display: inline-block;
     margin: 10px;
@@ -15,9 +21,13 @@ li {
     padding-right: 13px;
     font-size: 17px;
 }
+ul {
+    background-color: #D3DEEB;
+}
 nav#main-nav a {
    text-decoration: none;
    font-weight: bold;
+   
 }
 a {
     color: #ff8080;
@@ -28,6 +38,7 @@ a:hover {
 nav#main-nav {
     border: 2px solid grey;
     margin: 10px;
+    background-color: #D3DEEB;
 }
 .code {
     color: #ff8080;
@@ -45,8 +56,16 @@ article {
     padding: 20px;
     display: inline-block;
     font-family: courier;
+    background-color: #D3DEEB;
 }
-
+#img {
+    background-image: url("../images/webdevelopment.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 572px;
+    height: 420px;
+    position: absolute;
+}
 h2 {
     color: #80d4ff;
     font-weight: bold;
