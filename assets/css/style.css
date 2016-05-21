@@ -1,0 +1,47 @@
+header {
+    font-family: courier;
+    margin: 10px;
+    border: 2px solid grey;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    font-family: courier;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav#main-nav a {
+   text-decoration: none;
+   font-weight: bold;
+}
+a {
+    color: #ff8080;
+}
+a:hover {
+    color: #80d4ff;
+}
+nav#main-nav {
+    border: 2px solid grey;
+    margin: 10px;
+}
+.code {
+    color: #ff8080;
+    size: 60px;
+    display: block;
+}
+.name {
+    color: #80d4ff;
+    size: 40px;
+}
+
+article {
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    font-family: courier;
+}
