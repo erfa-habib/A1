@@ -1,75 +1,93 @@
 header {
-    font-family: courier;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
     margin: 10px;
-    border: 2px solid grey;
+    padding-top: 5px;
     text-align: center;
-    text-shadow: 2px 2px #000000;
-    background-color: #D3DEEB;
-  
+}
+
+#wrapper {
+    text-align: center;
+    width: 500px;
+}
+p {
+    margin: 30px;
 }
 
 body {
-    
-
-    
+    background-color: #F5F5DC;
+}
+#mappic {
+    float: right;
+    margin-left: 10px;
+}
+#mingpic {
+    float: left;
+    margin-right: 10px;
+}
+#yonglepic {
+    float: right;
+    margin-left: 10px;
+}
+#zhengpic {
+    float: left;
+    margin-right: 10px;
 }
 li {
     display: inline-block;
-    margin: 10px;
-    font-family: courier;
-    padding-left: 13px;
-    padding-right: 13px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
     font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 ul {
-    background-color: #D3DEEB;
+    text-align: center;
+   padding-left: 0px;
 }
 nav#main-nav a {
    text-decoration: none;
    font-weight: bold;
+   color: black;
    
 }
+nav#main-nav a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+
+}
 a {
-    color: #ff8080;
+    color: #f20d9c;
 }
 a:hover {
-    color: #80d4ff;
+    color: grey;
 }
 nav#main-nav {
-    border: 2px solid grey;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 10px;
-    background-color: #D3DEEB;
- 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.code {
-    color: #ff8080;
-    size: 60px;
+.main-title {
+    font-size: 40px;
+}
+.subtitle {
+    font-size: 20px;
+}
+span {
     display: block;
 }
-.name {
-    color: #80d4ff;
-    size: 40px;
-}
-
 article {
-    border: 2px solid grey;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 10px;
     padding: 20px;
     display: inline-block;
-    font-family: courier;
-    background-color: #D3DEEB;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
 }
-#img {
-    background-image: url("../images/webdevelopment.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 572px;
-    height: 420px;
-    position: absolute;
-}
+
 h2 {
-    color: #80d4ff;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 table {
